@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data": [
         {
@@ -18,3 +19,25 @@
         }
     ]
 }
+=======
+{
+    "data": [
+        {
+            "input": 1,
+            "output": 10.5
+        },
+        {
+            "input": 2,
+            "output": 21
+        },
+        {
+            "input": 5,
+            "output": 33
+        },
+        {
+            "input": 10,
+            "output": 53
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3

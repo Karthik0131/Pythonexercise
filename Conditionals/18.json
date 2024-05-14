@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data": [
         {
@@ -22,3 +23,29 @@
         }
     ]
 }
+=======
+{
+    "data": [
+        {
+            "input": "February",
+            "output": "No. of days: 28/29 days"
+        },
+        {
+            "input": "April",
+            "output": "No. of days: 30 days"
+        },
+        {
+            "input": "September",
+            "output": "No. of days: 30 days"
+        },
+        {
+            "input": "November",
+            "output": "No. of days: 30 days"
+        },
+        {
+            "input": "May",
+            "output": "No. of days: 31 days"
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3

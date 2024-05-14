@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data":[
         {
@@ -14,3 +15,21 @@
         }
     ]
 }
+=======
+{
+    "data":[
+        {
+            "input": "N/A",
+            "output": "0 1 2 4 5"
+        },
+        {
+            "input": "N/A",
+            "output": "0 1 2 4 5"
+        },
+        {
+            "input": "N/A",
+            "output": "0 1 2 4 5"
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data":[
         {
@@ -18,3 +19,25 @@
         }
     ]
 }
+=======
+{
+    "data":[
+        {
+            "input": "Hello\nWorld\n\n",
+            "output": "hello\nworld\n"
+        },
+        {
+            "input": "This is\nA\nTest\n\n",
+            "output": "this is\na\ntest\n"
+        },
+        {
+            "input": "LOWER\nUPPER\nMIXed\n\n",
+            "output": "lower\nupper\nmixed\n"
+        },
+        {
+            "input": "1234\nABCD\n\n",
+            "output": "1234\nabcd\n"
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3

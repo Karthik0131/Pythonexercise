@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data": [
         {
@@ -22,3 +23,29 @@
         }
     ]
 }
+=======
+{
+    "data": [
+        {
+            "input": "123",
+            "output": "The string is an integer."
+        },
+        {
+            "input": "-45",
+            "output": "The string is an integer."
+        },
+        {
+            "input": "+987",
+            "output": "The string is an integer."
+        },
+        {
+            "input": "Python",
+            "output": "The string is not an integer."
+        },
+        {
+            "input": "12.34",
+            "output": "The string is not an integer."
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3

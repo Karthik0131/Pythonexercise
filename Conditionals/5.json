@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data":[
         {
@@ -18,3 +19,25 @@
         }
     ]
 }
+=======
+{
+    "data":[
+        {
+            "input": "hello",
+            "output": "olleh"
+        },
+        {
+            "input": "world",
+            "output": "dlrow"
+        },
+        {
+            "input": "python",
+            "output": "nohtyp"
+        },
+        {
+            "input": "racecar",
+            "output": "racecar"
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3

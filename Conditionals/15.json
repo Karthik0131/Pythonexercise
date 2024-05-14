@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "data":[
         {
@@ -42,3 +43,49 @@
         }
     ]
 }
+=======
+{
+    "data":[
+        {
+            "input": "Abcd@1234",
+            "output": "Valid Password"
+        },
+        {
+            "input": "ABCD1234",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "abcd1234",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "Abcd1234",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "abcd@1234",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "ABCD@1234",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "abcd@ABCD",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "abcd@ABCD1234",
+            "output": "Valid Password"
+        },
+        {
+            "input": "a@A1",
+            "output": "Not a Valid Password"
+        },
+        {
+            "input": "a@A12345678901234",
+            "output": "Not a Valid Password"
+        }
+    ]
+}
+>>>>>>> 4d64f4cb324affe9dc5d0df636be86ec2b99d5a3
