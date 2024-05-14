@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "input": {
+                "sampleDict": {
+                    "class": {
+                        "student": {
+                            "name": "Mike",
+                            "marks": {
+                                "physics": 70,
+                                "history": 80
+                            }
+                        }
+                    }
+                }
+            },
+            "output": "80"
+        },
+        {
+            "input": {
+                "sampleDict": {
+                    "class": {
+                        "student": {
+                            "name": "John",
+                            "marks": {
+                                "physics": 85,
+                                "history": 90
+                            }
+                        }
+                    }
+                }
+            },
+            "output": "90"
+        },
+        {
+            "input": {
+                "sampleDict": {
+                    "class": {
+                        "student": {
+                            "name": "Alice",
+                            "marks": {
+                                "physics": 75,
+                                "history": 88
+                            }
+                        }
+                    }
+                }
+            },
+            "output": "88"
+        }
+    ]
+}

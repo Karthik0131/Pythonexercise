@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "input": {
+                "sample_dict": {
+                    "name": "Kelly",
+                    "age": 25,
+                    "salary": 8000,
+                    "city": "New york"
+                }
+            },
+            "output": {
+                "result": {
+                    "name": "Kelly",
+                    "age": 25,
+                    "salary": 8000,
+                    "location": "New york"
+                }
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {
+                    "name": "John",
+                    "age": 30,
+                    "salary": 9000,
+                    "city": "Los Angeles"
+                }
+            },
+            "output": {
+                "result": {
+                    "name": "John",
+                    "age": 30,
+                    "salary": 9000,
+                    "location": "Los Angeles"
+                }
+            }
+        }
+    ]
+}

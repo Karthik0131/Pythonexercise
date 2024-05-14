@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "input": {
+                "s1": "Ault",
+                "s2": "Kelly"
+            },
+            "output": {
+                "result": "AuKellylt"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input_file_content": "line1\nline2\nline3\nline4\nline5\nline6\nline7\n",
+            "expected_output_file_content": "line1\nline2\nline3\nline4\nline6\nline7\n"
+        },
+        {
+            "input_file_content": "a\nb\nc\nd\ne\nf\ng\n",
+            "expected_output_file_content": "a\nb\nc\nd\nf\ng\n"
+        },
+        {
+            "input_file_content": "1\n2\n3\n4\n5\n6\n7\n",
+            "expected_output_file_content": "1\n2\n3\n4\n6\n7\n"
+        },
+        {
+            "input_file_content": "apple\nbanana\ncherry\ndate\nelderberry\nfig\ngrape\n",
+            "expected_output_file_content": "apple\nbanana\ncherry\ndate\nfig\ngrape\n"
+        }
+    ]
+}

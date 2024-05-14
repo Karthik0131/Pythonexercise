@@ -1,0 +1,22 @@
+{
+    "test_cases": [
+        {
+            "totalMoney": 1000,
+            "quantity": 3,
+            "price": 450,
+            "expected_output": "I have 1000 dollars so I can buy 3 football for 450.00 dollars."
+        },
+        {
+            "totalMoney": 1500,
+            "quantity": 5,
+            "price": 300,
+            "expected_output": "I have 1500 dollars so I can buy 5 football for 300.00 dollars."
+        },
+        {
+            "totalMoney": 2000,
+            "quantity": 2,
+            "price": 750,
+            "expected_output": "I have 2000 dollars so I can buy 2 football for 750.00 dollars."
+        }
+    ]
+}

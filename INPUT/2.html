@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Strings with Custom Separator</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Display Strings with Custom Separator</h1>
+    <p>
+        Use the print() function to format the given words with the ** separator between each string.
+    </p>
+    <div class="code">
+        <pre>
+# Define three strings to be displayed with a custom separator
+str1 = "Name"
+str2 = "Is"
+str3 = "James"
+
+# Use the print() function with the 'sep' parameter to format the strings
+print(str1, str2, str3, sep='**')
+        </pre>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "input": ["Mike", "", "Emma", "Kelly", "", "Brad"],
+            "output": ["Mike", "Emma", "Kelly", "Brad"]
+        },
+        {
+            "input": ["Alice", "", "Bob", "", "Charlie", "Diana"],
+            "output": ["Alice", "Bob", "Charlie", "Diana"]
+        }
+    ]
+}

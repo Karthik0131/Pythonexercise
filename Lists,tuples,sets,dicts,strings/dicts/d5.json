@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "input": {
+                "sampleDict": { 
+                    "name": "Kelly",
+                    "age": 25, 
+                    "salary": 8000, 
+                    "city": "New york" 
+                },
+                "keys": ["name", "salary"]
+            },
+            "output": {
+                "newDict": {"name": "Kelly", "salary": 8000},
+                "res": {"name": "Kelly", "salary": 8000}
+            }
+        },
+        {
+            "input": {
+                "sampleDict": { 
+                    "name": "John",
+                    "age": 30, 
+                    "salary": 9000, 
+                    "city": "Los Angeles" 
+                },
+                "keys": ["name", "salary"]
+            },
+            "output": {
+                "newDict": {"name": "John", "salary": 9000},
+                "res": {"name": "John", "salary": 9000}
+            }
+        },
+        {
+            "input": {
+                "sampleDict": { 
+                    "name": "Alice",
+                    "age": 28, 
+                    "salary": 8500, 
+                    "city": "Chicago" 
+                },
+                "keys": ["name", "salary"]
+            },
+            "output": {
+                "newDict": {"name": "Alice", "salary": 8500},
+                "res": {"name": "Alice", "salary": 8500}
+            }
+        }
+    ]
+}

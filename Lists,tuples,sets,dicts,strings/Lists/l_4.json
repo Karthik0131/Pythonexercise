@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "input": {
+                "list1": ["Hello ", "take "],
+                "list2": ["Dear", "Sir"]
+            },
+            "output": ["Hello Dear", "Hello Sir", "take Dear", "take Sir"]
+        },
+        {
+            "input": {
+                "list1": ["Good ", "Nice "],
+                "list2": ["Morning", "Day"]
+            },
+            "output": ["Good Morning", "Good Day", "Nice Morning", "Nice Day"]
+        }
+    ]
+}

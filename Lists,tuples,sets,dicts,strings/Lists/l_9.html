@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Replace List's Item with New Value if Found</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    .test-case {
+        margin-bottom: 10px;
+    }
+    .input {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .output {
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Replace List's Item with New Value if Found</h1>
+    <p>Given: list1 = [5, 10, 15, 20, 25, 50, 20]</p>
+    <p>Expected output: [5, 10, 15, 200, 25, 50, 20]</p>
+    <div class="code">
+        <pre>
+list1 = [5, 10, 15, 20, 25, 50, 20]
+
+# get the first occurrence index
+index = list1.index(20)
+
+# update item present at location
+list1[index] = 200
+print(list1)
+        </pre>
+    </div>
+    <h2>Sample Test Cases:</h2>
+    <div class="test-case">
+        <p class="input">Input: [5, 10, 15, 20, 25, 50, 20]</p>
+        <p class="output">Output: [5, 10, 15, 200, 25, 50, 20]</p>
+        <div class="code">
+            <pre>
+[5, 10, 15, 200, 25, 50, 20]
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>

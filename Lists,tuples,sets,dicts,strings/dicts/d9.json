@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "input": {
+                "sample_dict": {
+                    "Physics": 82,
+                    "Math": 65,
+                    "history": 75
+                }
+            },
+            "output": {
+                "result": "Math"
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {
+                    "Chemistry": 72,
+                    "Biology": 68,
+                    "Math": 80
+                }
+            },
+            "output": {
+                "result": "Biology"
+            }
+        }
+    ]
+}

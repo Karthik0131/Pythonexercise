@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "Alice Bob Charlie",
+            "expected_output": "Name1: Alice\nName2: Bob\nName3: Charlie\n"
+        },
+        {
+            "input": "John Paul George",
+            "expected_output": "Name1: John\nName2: Paul\nName3: George\n"
+        },
+        {
+            "input": "Tom Jerry Spike",
+            "expected_output": "Name1: Tom\nName2: Jerry\nName3: Spike\n"
+        },
+        {
+            "input": "Harry Ron Hermione",
+            "expected_output": "Name1: Harry\nName2: Ron\nName3: Hermione\n"
+        }
+    ]
+}

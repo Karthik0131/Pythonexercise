@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add New Item to List After a Specified Item</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    .test-case {
+        margin-bottom: 10px;
+    }
+    .input {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .output {
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Add New Item to List After a Specified Item</h1>
+    <p>Given: list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]</p>
+    <p>Expected output: [10, 20, [300, 400, [5000, 6000, 7000], 500], 30, 40]</p>
+    <div class="code">
+        <pre>
+list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
+
+# understand indexing
+# list1[0] = 10
+# list1[1] = 20
+# list1[2] = [300, 400, [5000, 6000], 500]
+# list1[2][2] = [5000, 6000]
+# list1[2][2][1] = 6000
+
+# solution
+list1[2][2].append(7000)
+print(list1)
+        </pre>
+    </div>
+    <h2>Sample Test Cases:</h2>
+    <div class="test-case">
+        <p class="input">Input: [10, 20, [300, 400, [5000, 6000], 500], 30, 40]</p>
+        <p class="output">Output: [10, 20, [300, 400, [5000, 6000, 7000], 500], 30, 40]</p>
+        <div class="code">
+            <pre>
+[10, 20, [300, 400, [5000, 6000, 7000], 500], 30, 40]
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>

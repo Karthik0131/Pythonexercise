@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "file_name": "test.txt",
+            "expected_output": "line4"
+        },
+        {
+            "file_name": "another_test.txt",
+            "expected_output": "different_line4"
+        }
+    ]
+}

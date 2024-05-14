@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accept List of Float Numbers</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Accept List of Float Numbers</h1>
+    <p>
+        Use a loop to accept 5 float numbers from the user and store them in a list.
+    </p>
+    <div class="code">
+        <pre>
+numbers = []
+
+# Specify the list size
+list_size = 5
+
+# Loop to accept 5 float numbers from the user
+for i in range(0, list_size):
+    # Prompt the user to enter a float number at the current location
+    print("Enter number at location", i, ":")
+    # Accept a float number from the user and add it to the list
+    item = float(input())
+    numbers.append(item)
+
+# Display the list of float numbers entered by the user
+print("User List:", numbers)
+        </pre>
+    </div>
+</div>
+</body>
+</html>

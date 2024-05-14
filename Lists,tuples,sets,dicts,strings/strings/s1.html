@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .code {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .test-case {
+            margin-top: 20px;
+        }
+        .input {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .output {
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercise 1: Create a string made of the middle three characters</h1>
+        <pre class="code">
+Write a program to create a new string made of the middle three characters of an input string.
+
+Given:
+Case 1
+str1 = "JhonDipPeta"
+Output
+Dip
+
+Case 2
+str2 = "JaSonAy"
+Output
+Son
+
+Show Solution
+• Get the middle character’s index using x = len(str1) /2.
+• Use string slicing to get the middle three characters starting from the middle index to the next two character str1[middle_index-1:middle_index+2]
+
+def get_middle_three_chars(str1):
+    print("Original String is", str1)
+
+    # first get middle index number
+    mi = int(len(str1) / 2)
+
+    # use string slicing to get result characters
+    res = str1[mi - 1:mi + 2]
+    print("Middle three chars are:", res)
+
+get_middle_three_chars("JhonDipPeta")
+get_middle_three_chars("JaSonAy")
+        </pre>
+        <div class="test-case">
+            <div class="input">Input: "JhonDipPeta"</div>
+            <div class="output">Output: Dip</div>
+        </div>
+        <div class="test-case">
+            <div class="input">Input: "JaSonAy"</div>
+            <div class="output">Output: Son</div>
+        </div>
+        <div class="test-case">
+            <div class="input">Input: "Python"</div>
+            <div class="output">Output: tho</div>
+        </div>
+        <div class="test-case">
+            <div class="input">Input: "ABCDEFGHIJ"</div>
+            <div class="output">Output: DEF</div>
+        </div>
+        <div class="test-case">
+            <div class="input">Input: "abcdefghi"</div>
+            <div class="output">Output: def</div>
+        </div>
+    </div>
+</body>
+</html>

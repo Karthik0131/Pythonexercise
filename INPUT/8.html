@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Format Variables using string.format()</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Format Variables using string.format()</h1>
+    <p>
+        This script uses the <code>string.format()</code> method to format the following three variables: <code>totalMoney</code>, <code>quantity</code>, and <code>price</code>.
+    </p>
+    <div class="code">
+        <pre>
+# Given variables
+totalMoney = 1000
+quantity = 3
+price = 450
+
+# Create a formatted string using string.format() method
+statement = "I have {} dollars so I can buy {} football for {:.2f} dollars."
+
+# Format the string with the variables
+formatted_statement = statement.format(totalMoney, quantity, price)
+
+# Print the formatted statement
+print(formatted_statement)
+        </pre>
+    </div>
+</div>
+</body>
+</html>

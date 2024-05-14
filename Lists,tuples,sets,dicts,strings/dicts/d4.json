@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "input": {
+                "employees": ["Kelly", "Emma"],
+                "defaults": {"designation": "Developer", "salary": 8000}
+            },
+            "output": {
+                "dictionary": {
+                    "Kelly": {"designation": "Developer", "salary": 8000},
+                    "Emma": {"designation": "Developer", "salary": 8000}
+                },
+                "individual_data": {"designation": "Developer", "salary": 8000}
+            }
+        },
+        {
+            "input": {
+                "employees": ["John", "Doe"],
+                "defaults": {"designation": "Manager", "salary": 9000}
+            },
+            "output": {
+                "dictionary": {
+                    "John": {"designation": "Manager", "salary": 9000},
+                    "Doe": {"designation": "Manager", "salary": 9000}
+                },
+                "individual_data": {"designation": "Manager", "salary": 9000}
+            }
+        },
+        {
+            "input": {
+                "employees": ["Alice", "Bob"],
+                "defaults": {"designation": "Analyst", "salary": 7500}
+            },
+            "output": {
+                "dictionary": {
+                    "Alice": {"designation": "Analyst", "salary": 7500},
+                    "Bob": {"designation": "Analyst", "salary": 7500}
+                },
+                "individual_data": {"designation": "Analyst", "salary": 7500}
+            }
+        }
+    ]
+}

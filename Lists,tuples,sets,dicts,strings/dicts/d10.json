@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "input": {
+                "sample_dict": {
+                    "emp1": {"name": "Jhon", "salary": 7500},
+                    "emp2": {"name": "Emma", "salary": 8000},
+                    "emp3": {"name": "Brad", "salary": 6500}
+                }
+            },
+            "output": {
+                "result": {
+                    "emp1": {"name": "Jhon", "salary": 7500},
+                    "emp2": {"name": "Emma", "salary": 8000},
+                    "emp3": {"name": "Brad", "salary": 8500}
+                }
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {
+                    "emp1": {"name": "Alice", "salary": 7000},
+                    "emp2": {"name": "Bob", "salary": 8500},
+                    "emp3": {"name": "Charlie", "salary": 6200}
+                }
+            },
+            "output": {
+                "result": {
+                    "emp1": {"name": "Alice", "salary": 7000},
+                    "emp2": {"name": "Bob", "salary": 8500},
+                    "emp3": {"name": "Charlie", "salary": 8500}
+                }
+            }
+        }
+    ]
+}

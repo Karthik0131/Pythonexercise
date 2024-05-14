@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "input": 8,
+            "output": "The octal number of decimal number 8 is 10"
+        },
+        {
+            "input": 10,
+            "output": "The octal number of decimal number 10 is 12"
+        },
+        {
+            "input": 15,
+            "output": "The octal number of decimal number 15 is 17"
+        },
+        {
+            "input": 64,
+            "output": "The octal number of decimal number 64 is 100"
+        },
+        {
+            "input": 100,
+            "output": "The octal number of decimal number 100 is 144"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "file_name": "empty_file.txt",
+            "expected_output": "file is empty"
+        },
+        {
+            "file_name": "non_empty_file.txt",
+            "expected_output": "file is not empty"
+        }
+    ]
+}

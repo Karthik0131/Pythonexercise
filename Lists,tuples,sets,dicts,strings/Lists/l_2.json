@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "input": {
+                "list1": ["M", "na", "i", "Ke"],
+                "list2": ["y", "me", "s", "lly"]
+            },
+            "output": ["My", "name", "is", "Kelly"]
+        },
+        {
+            "input": {
+                "list1": ["a", "b", "c"],
+                "list2": ["x", "y", "z"]
+            },
+            "output": ["ax", "by", "cz"]
+        },
+        {
+            "input": {
+                "list1": ["apple"],
+                "list2": ["pie"]
+            },
+            "output": ["applepie"]
+        }
+    ]
+}

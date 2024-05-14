@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concatenate Two Lists Index-wise</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    .test-case {
+        margin-bottom: 10px;
+    }
+    .input {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .output {
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Concatenate Two Lists Index-wise</h1>
+    <p>Write a program to add two lists index-wise. Create a new list that contains the 0th index item from both the list, then the 1st index item, and so on till the last element. Any leftover items will get added at the end of the new list.</p>
+    <p>Given: list1 = ["M", "na", "i", "Ke"], list2 = ["y", "me", "s", "lly"]</p>
+    <p>Expected output: ['My', 'name', 'is', 'Kelly']</p>
+    <div class="code">
+        <pre>
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+list3 = [i + j for i, j in zip(list1, list2)]
+print(list3)
+        </pre>
+    </div>
+    <h2>Sample Test Cases:</h2>
+    <div class="test-case">
+        <p class="input">Input: list1 = ["M", "na", "i", "Ke"], list2 = ["y", "me", "s", "lly"]</p>
+        <p class="output">Output: ['My', 'name', 'is', 'Kelly']</p>
+        <div class="code">
+            <pre>
+['My', 'name', 'is', 'Kelly']
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "input": {
+                "sample_dict": {"a": 100, "b": 200, "c": 300}
+            },
+            "output": {
+                "result": "200 present in a dict"
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {"x": 150, "y": 250, "z": 350}
+            },
+            "output": {
+                "result": "250 present in a dict"
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {"i": 10, "j": 20, "k": 30}
+            },
+            "output": {
+                "result": "20 present in a dict"
+            }
+        }
+    ]
+}

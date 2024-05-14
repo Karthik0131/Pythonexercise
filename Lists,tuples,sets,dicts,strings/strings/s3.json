@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "input": {
+                "s1": "America",
+                "s2": "Japan"
+            },
+            "output": {
+                "result": "AJrpan"
+            }
+        }
+    ]
+}

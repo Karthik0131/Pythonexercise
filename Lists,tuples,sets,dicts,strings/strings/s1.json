@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "input": {
+                "str1": "JhonDipPeta"
+            },
+            "output": {
+                "result": "Dip"
+            }
+        },
+        {
+            "input": {
+                "str2": "JaSonAy"
+            },
+            "output": {
+                "result": "Son"
+            }
+        },
+        {
+            "input": {
+                "str1": "Python"
+            },
+            "output": {
+                "result": "yth"
+            }
+        },
+        {
+            "input": {
+                "str1": "ABCDEFG"
+            },
+            "output": {
+                "result": "CDE"
+            }
+        },
+        {
+            "input": {
+                "str1": "abcdefg"
+            },
+            "output": {
+                "result": "cde"
+            }
+        }
+    ]
+}

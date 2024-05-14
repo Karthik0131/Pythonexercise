@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remove All Occurrences of a Specific Item from a List</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    .test-case {
+        margin-bottom: 10px;
+    }
+    .input {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .output {
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Remove All Occurrences of a Specific Item from a List</h1>
+    <p>Given: list1 = [5, 20, 15, 20, 25, 50, 20]</p>
+    <p>Expected output: [5, 15, 25, 50]</p>
+    <div class="code">
+        <pre>
+Solution 1: Use the list comprehension
+list1 = [5, 20, 15, 20, 25, 50, 20]
+
+# list comprehension
+# remove specific items and return a new list
+def remove_value(sample_list, val):
+    return [i for i in sample_list if i != val]
+
+res = remove_value(list1, 20)
+print(res)
+
+Solution 2: while loop (slow solution)
+list1 = [5, 20, 15, 20, 25, 50, 20]
+
+while 20 in list1:
+    list1.remove(20)
+print(list1)
+        </pre>
+    </div>
+    <h2>Sample Test Cases:</h2>
+    <div class="test-case">
+        <p class="input">Input: [5, 20, 15, 20, 25, 50, 20]</p>
+        <p class="output">Output: [5, 15, 25, 50]</p>
+        <div class="code">
+            <pre>
+[5, 15, 25, 50]
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "input": ["Name", "Is", "James"],
+            "separator": "**",
+            "output": "Name**Is**James"
+        },
+        {
+            "input": ["My", "Name", "Is", "James"],
+            "separator": "**",
+            "output": "My**Name**Is**James"
+        },
+        {
+            "input": ["Hello", "World"],
+            "separator": "--",
+            "output": "Hello--World"
+        },
+        {
+            "input": ["Python", "is", "fun"],
+            "separator": "++",
+            "output": "Python++is++fun"
+        },
+        {
+            "input": ["I", "Love", "Programming"],
+            "separator": "##",
+            "output": "I##Love##Programming"
+        }
+    ]
+}

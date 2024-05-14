@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "input": {
+                "sample_dict": {
+                    "name": "Kelly",
+                    "age": 25,
+                    "salary": 8000,
+                    "city": "New york"
+                },
+                "keys": ["name", "salary"]
+            },
+            "output": {
+                "result": {
+                    "city": "New york",
+                    "age": 25
+                }
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {
+                    "name": "John",
+                    "age": 30,
+                    "salary": 9000,
+                    "city": "Los Angeles"
+                },
+                "keys": ["name", "city"]
+            },
+            "output": {
+                "result": {
+                    "age": 30,
+                    "salary": 9000
+                }
+            }
+        },
+        {
+            "input": {
+                "sample_dict": {
+                    "name": "Alice",
+                    "age": 28,
+                    "salary": 8500,
+                    "city": "Chicago"
+                },
+                "keys": ["age", "salary"]
+            },
+            "output": {
+                "result": {
+                    "name": "Alice",
+                    "city": "Chicago"
+                }
+            }
+        }
+    ]
+}

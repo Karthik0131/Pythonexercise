@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Extend Nested List by Adding the Sublist</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    .test-case {
+        margin-bottom: 10px;
+    }
+    .input {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .output {
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Extend Nested List by Adding the Sublist</h1>
+    <p>Given List: list1 = ["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]</p>
+    <p>Sub list to add: ["h", "i", "j"]</p>
+    <p>Expected Output: ['a', 'b', ['c', ['d', 'e', ['f', 'g', 'h', 'i', 'j'], 'k'], 'l'], 'm', 'n']</p>
+    <div class="code">
+        <pre>
+list1 = ["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]
+sub_list = ["h", "i", "j"]
+
+# understand indexing
+# list1[2] = ['c', ['d', 'e', ['f', 'g'], 'k'], 'l']
+# list1[2][1] = ['d', 'e', ['f', 'g'], 'k']
+# list1[2][1][2] = ['f', 'g']
+
+# solution
+list1[2][1][2].extend(sub_list)
+print(list1)
+        </pre>
+    </div>
+    <h2>Sample Test Cases:</h2>
+    <div class="test-case">
+        <p class="input">Input: ["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]</p>
+        <p class="output">Output: ["a", "b", ["c", ["d", "e", ["f", "g", "h", "i", "j"], "k"], "l"], "m", "n"]</p>
+        <div class="code">
+            <pre>
+["a", "b", ["c", ["d", "e", ["f", "g", "h", "i", "j"], "k"], "l"], "m", "n"]
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>

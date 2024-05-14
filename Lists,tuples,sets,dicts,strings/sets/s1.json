@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "input": {},
+            "output": "{'Black', 'Green', 'Red', 'Orange', 'Blue', 'Yellow'}"
+        },
+        {
+            "input": {
+                
+            },
+            "output": "{'Black', 'Green', 'Red', 'Orange', 'Blue', 'Yellow'}"
+        },
+        {
+            "input": {
+                
+            },
+            "output": "{'Black', 'Green', 'Red', 'Orange', 'Blue', 'Yellow'}"
+        }
+    ]
+}

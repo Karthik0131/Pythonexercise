@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turn Every Item of a List into Its Square</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .code {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    .test-case {
+        margin-bottom: 10px;
+    }
+    .input {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .output {
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Turn Every Item of a List into Its Square</h1>
+    <p>Given a list of numbers. write a program to turn every item of a list into its square.</p>
+    <p>Given: numbers = [1, 2, 3, 4, 5, 6, 7]</p>
+    <p>Expected output: [1, 4, 9, 16, 25, 36, 49]</p>
+    <div class="code">
+        <pre>
+# Using loop and list method
+# Create an empty result list
+# Iterate a numbers list using a loop
+# In each iteration, calculate the square of a current number and add it to the result list using the append() method.
+numbers = [1, 2, 3, 4, 5, 6, 7]
+# result list
+res = []
+for i in numbers:
+    # calculate square and add to the result list
+    res.append(i * i)
+print(res)
+
+# Use list comprehension
+numbers = [1, 2, 3, 4, 5, 6, 7]
+res = [x * x for x in numbers]
+print(res)
+        </pre>
+    </div>
+    <h2>Sample Test Cases:</h2>
+    <div class="test-case">
+        <p class="input">Input: [1, 2, 3, 4, 5, 6, 7]</p>
+        <p class="output">Output: [1, 4, 9, 16, 25, 36, 49]</p>
+        <div class="code">
+            <pre>
+[1, 4, 9, 16, 25, 36, 49]
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>
